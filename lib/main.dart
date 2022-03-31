@@ -1,4 +1,5 @@
 import 'package:example_app/controllers/day_night_controller.dart';
+import 'package:example_app/screens/circular_menu_screen.dart';
 import 'package:example_app/screens/day_night_Switcher_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
             ? ThemeMode.dark
             : ThemeMode.light,
         theme: ThemeData.light(),
-        home: const DayNightSwitcherScreen(),
+        home: const CircularMenuScreen(),
       ),
     );
   }
